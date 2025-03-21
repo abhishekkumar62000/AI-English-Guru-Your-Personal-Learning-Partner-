@@ -1,0 +1,17 @@
+streamlit
+google-generativeai
+python-dotenv
+speechrecognition
+pyttsx3
+pyaudio
+gramformer
+torch
+transformers
+textblob
+openai
+pydub
+gtts
+opencv-python
+mediapipe
+pyttsx3
+numpy
