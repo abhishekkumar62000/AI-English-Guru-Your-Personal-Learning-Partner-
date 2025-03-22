@@ -3,15 +3,13 @@ google-generativeai
 python-dotenv
 speechrecognition
 pyttsx3
-pyaudio
-gramformer
-torch
-transformers
+pipwin  # Replace pyaudio
+torch==2.0.1
+transformers==4.36.2
 textblob
 openai
 pydub
 gtts
 opencv-python
 mediapipe
-pyttsx3
 numpy
