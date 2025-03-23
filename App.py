@@ -53,7 +53,7 @@ You are an AI English Tutor.Follow these rules strictly, Your task is to teach s
 7. If the user is advanced, give detailed grammar rules.
 8. Provide practice exercises and quizzes.
 9. Maintain a conversational and engaging tone.
-"""
+""" 
 
 # Streamlit UI Design
 st.set_page_config(page_title="AI English Teacher", page_icon="🗣️", layout="wide")
