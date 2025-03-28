@@ -62,7 +62,7 @@ st.title("🎙️AI English Guru–Your Personal Learning Partner🤖")
 st.write("Improve your English step by step with interactive lessons!")
 
 
-AI_path = "AI.png"  # Ensure this file is in the same directory as your script
+AI_path = "AI.png"  # Ensure this file is in the same directory as your script 
 try:
     st.sidebar.image(AI_path)
 except FileNotFoundError:
