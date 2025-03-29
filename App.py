@@ -29,7 +29,7 @@ genai.configure(api_key=GEMINI_API_KEY)
 try:
     model_name = "models/gemini-1.5-pro-latest"  # Best available model 
     available_models = [m.name for m in genai.list_models()]
-    
+     
     if model_name not in available_models:
         st.error(f"⚠️ Model '{model_name}' not found! Available models: {available_models}")
         st.stop()
