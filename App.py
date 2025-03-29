@@ -88,7 +88,7 @@ if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
 if "user_level" not in st.session_state:
     st.session_state.user_level = "Beginner"
-
+ 
 # Select User Level
 user_level = st.sidebar.selectbox("Your Level", ["Beginner", "Intermediate", "Advanced"])
 st.session_state.user_level = user_level
