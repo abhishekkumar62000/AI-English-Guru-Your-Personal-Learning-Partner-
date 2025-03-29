@@ -32,7 +32,7 @@ try:
      
     if model_name not in available_models:
         st.error(f"⚠️ Model '{model_name}' not found! Available models: {available_models}")
-        st.stop()
+        st.stop() 
 
     model = genai.GenerativeModel(model_name)
 except Exception as e:
