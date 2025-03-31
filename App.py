@@ -36,7 +36,7 @@ try:
 
     model = genai.GenerativeModel(model_name)
 except Exception as e:
-    st.error(f"⚠️ Error connecting to Gemini API: {e}") 
+    st.error(f"⚠️ Error connecting to Gemini API: {e}")
     st.stop()
 
 # AI Teacher Instructions
