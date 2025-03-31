@@ -75,7 +75,7 @@ except FileNotFoundError:
     st.sidebar.warning("image.png file not found. Please check the file path.")
 
 # Add Developer Information to Sidebar
-st.sidebar.markdown("👨👨‍💻Developer:- Abhishek❤️Yadav") 
+st.sidebar.markdown("👨👨‍💻Developer:- Abhishek❤️Yadav")
 
 developer_path = "my.jpg"  # Ensure this file is in the same directory as your script
 try:
