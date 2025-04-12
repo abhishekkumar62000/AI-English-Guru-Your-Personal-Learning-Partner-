@@ -34,7 +34,7 @@ try:
         st.error(f"⚠️ Model '{model_name}' not found! Available models: {available_models}")
         st.stop() 
 
-    model = genai.GenerativeModel(model_name)
+    model = genai.GenerativeModel(model_name) 
 except Exception as e:
     st.error(f"⚠️ Error connecting to Gemini API: {e}")
     st.stop()
