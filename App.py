@@ -58,7 +58,7 @@ You are an AI English Tutor.Follow these rules strictly, Your task is to teach s
 # Streamlit UI Design
 st.set_page_config(page_title="AI English Teacher", page_icon="🗣️", layout="wide")
 
-st.title("🎙️AI English Guru–Your Personal Learning Partner🤖")
+st.title("🎙️AI English Guru–Your Personal Learning Partner🤖") 
 st.write("Improve your English step by step with interactive lessons!")
 
 
