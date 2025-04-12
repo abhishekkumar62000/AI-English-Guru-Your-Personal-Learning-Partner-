@@ -63,7 +63,7 @@ st.write("Improve your English step by step with interactive lessons!")
 
 
 AI_path = "AI.png"  # Ensure this file is in the same directory as your  script add top image
-try:
+try: 
     st.sidebar.image(AI_path)
 except FileNotFoundError:
     st.sidebar.warning("AI.png file not found. Please check the file path.")
