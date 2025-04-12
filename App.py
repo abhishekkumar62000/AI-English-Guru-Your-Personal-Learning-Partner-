@@ -52,7 +52,7 @@ You are an AI English Tutor.Follow these rules strictly, Your task is to teach s
 6. If the user is a beginner, keep explanations simple.
 7. If the user is advanced, give detailed grammar rules.
 8. Provide practice exercises and quizzes.
-9. Maintain a conversational and engaging tone.
+9. Maintain a conversational and engaging tone. 
 """
 
 # Streamlit UI Design
