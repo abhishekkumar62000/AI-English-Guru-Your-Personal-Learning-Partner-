@@ -22,7 +22,7 @@ if not GEMINI_API_KEY:
     st.error("⚠️ Gemini API Key is missing! Please check your .env file or environment variables.")
     st.stop()
 
-# Configure Gemini API
+# Configure Gemini API 
 genai.configure(api_key=GEMINI_API_KEY)
 
 # ✅ Fix: Ensure the correct model is used
