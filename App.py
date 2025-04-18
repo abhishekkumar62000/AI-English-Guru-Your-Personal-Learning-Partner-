@@ -39,7 +39,7 @@ except Exception as e:
     st.error(f"⚠️ Error connecting to Gemini API: {e}")
     st.stop() 
 
-# AI Teacher Instructions:-
+# AI Teacher Instructions:- 
 SYSTEM_PROMPT = """
 You are an AI English Tutor.Follow these rules strictly, Your task is to teach spoken English in a structured way.
 0. Communicate with the user in a friendly and engaging manner.
