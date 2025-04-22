@@ -27,7 +27,7 @@ genai.configure(api_key=GEMINI_API_KEY)
 
 # ✅ Fix: Ensure the correct model is used:-
 try:
-    model_name = "models/gemini-1.5-pro-latest"  # Best available model  
+    model_name = "models/gemini-1.5-pro-latest"  # Best available model 
     available_models = [m.name for m in genai.list_models()]
      
     if model_name not in available_models:
