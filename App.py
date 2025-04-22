@@ -122,7 +122,7 @@ def evaluate_and_update_progress(user_input, corrected_text, grammatically_corre
         update_progress("grammar", 5)
     # Add more criteria as needed
 
-# Speech Recognition 
+# Speech Recognition:--
 recognizer = sr.Recognizer()
 
 def listen_speech():
