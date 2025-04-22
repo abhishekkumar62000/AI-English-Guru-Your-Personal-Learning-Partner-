@@ -140,7 +140,7 @@ def listen_speech():
         st.error(f"Microphone Error: {e}")
         return None
 
-def speak_text(text):
+def speak_text(text): 
     try:
         engine = pyttsx3.init()
         engine.say(text)
