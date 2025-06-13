@@ -12,7 +12,7 @@ from io import BytesIO
 import base64 
 import random
 import difflib
-import json 
+import json
 
 # Load API Key 
 load_dotenv()
