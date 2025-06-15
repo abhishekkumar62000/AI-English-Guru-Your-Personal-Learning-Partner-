@@ -1,13 +1,13 @@
-import streamlit as st 
-import google.generativeai as genai 
-import os 
+import streamlit as st
+import google.generativeai as genai
+import os
 import speech_recognition as sr
-import pyttsx3 
+import pyttsx3
 from gtts import gTTS
-from dotenv import load_dotenv  
-from gramformer import Gramformer  
+from dotenv import load_dotenv
+from gramformer import Gramformer
 from textblob import TextBlob
-import time 
+import time
 from io import BytesIO 
 import base64
 import random
