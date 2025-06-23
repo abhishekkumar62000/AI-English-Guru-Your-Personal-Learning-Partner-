@@ -23,7 +23,7 @@ if not GEMINI_API_KEY:
     st.stop()
 
 # Configure Gemini API 
-genai.configure(api_key=GEMINI_API_KEY)
+genai.configure(api_key=GEMINI_API_KEY) 
 
 # ✅ Fix: Ensure the correct model is used:-  
 try:
