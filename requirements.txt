@@ -13,3 +13,4 @@ gtts
 opencv-python
 mediapipe
 numpy
+
